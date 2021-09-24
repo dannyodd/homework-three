@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="site-container"> <!-- Begin site container div -->
+        <nav>
+            <div class="logo">
+                <div class="logo-box"></div>
+                <div class="logo-text">travel-fly</div>
+            </div>
+            <div class="links">
+                <a href="#">HOME</a> | 
+                <a href="#">about</a> | 
+                <a href="#">tours</a> | 
+                <a href="#">special offer</a> | 
+                <a href="#">blog</a> | 
+                <a href="#">contact</a>
+            </div>
+            <div class="bottom-line"></div>
+        </nav>
+        <div class="home">
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>travel-fly</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Fugiat aliquid minus nemo sed est.</h2>
+                </div>
+                <div class="read-more">
+                    Read More
+                </div>
+            </section>
+            <section class="promo-tours">
+                <div class="tour-item">
+                    <img src="images/israel.png" alt="Israel tour">
+                    <h1>Israel</h1>
+                    <h2>from $1000</h2>
+                    <div class="tour-button">learn more</div>
+                </div>
+                <div class="tour-item">
+                    <img src="images/usa.png" alt="USA tour">
+                    <h1>USA</h1>
+                    <h2>from $1500</h2>
+                    <div class="tour-button">learn more</div>
+                </div>
+                <div class="tour-item">
+                    <img src="images/australia.png" alt="Australia tour">
+                    <h1>Australia</h1>
+                    <h2>from $1800</h2>
+                    <div class="tour-button">learn more</div>
+                </div>
+            </section>
+            <section class="booking">
+                <div class="booking-wrapper">
+                    <h1>Booking form</h1>
+                    <div class="short-input">
+                        <input type="text" class="short-input-left" placeholder="name..." name="booking-name">
+                        <input type="email" class="short-input-right" placeholder="email..." name="booking-email">
+                    </div>
+                    <div class="short-input">
+                        <input type="text" class="short-input-left" placeholder="country..." name="booking-country">
+                        <input type="text" class="short-input-right" placeholder="hotel..." name="booking-hotel">
+                    </div>
+
+                    <div class="long-input">
+                        <label for="check-in-date">Check-in</label>
+                        <input type="date" placeholder="05/10/2020" name="booking-check-in-date">
+                    </div>
+                    <div class="long-input">
+                        <label for="check-out-date">Check-out</label>
+                        <input type="date" placeholder="05/20/2020" name="booking-check-out-date">
+                    </div>
+                    <div class="booking-dropdowns">
+                        <label for="booking-num-adult">Adult</label>
+                        <select name="booking-num-adult" id="booking-num-adult">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8+">8+</option>
+                        </select>
+                        <label for="booking-num-child">Children</label>
+                        <select name="booking-num-child" id="booking-num-child">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8+">8+</option>
+                        </select>
+                        <label for="booking-num-rooms">Rooms</label>
+                        <select name="booking-num-rooms" id="booking-num-rooms">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4+">4+</option>
+                        </select>
+                    </div>
+                    <textarea class="booking-message" name="booking-message" id="booking-message" cols="30" rows="10" placeholder="message..."></textarea>
+                    <input class="booking-submit" type="submit" value="Submit">
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="logo">
+                <div class="logo-box"></div>
+                <div class="logo-text">travel-fly</div>
+            </div>
+            <p>Copyright 2019 travel-fly. All rights reserved</p>
+            <div class="sm-icons">
+                <img src="images/fb_icon.png" alt="Facebook">
+                <img src="images/ig_icon.png" alt="Instagram">
+                <img src="images/twitter_icon.png" alt="Twitter">
+            </div>
+        </footer>
+    </div> <!-- End Site Container Div -->
+</body>
+</html>

@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1280px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  z-index: 999;
+  height: 90px;
+  max-width: 1006px;
+  width: 78.6%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .links {
+  max-width: 524px;
+  width: 52%;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+}
+nav .links a {
+  color: white;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+nav .bottom-line {
+  max-width: 980px;
+  width: 97.4%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.home .hero {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/hero.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .hero .read-more {
+  background-color: #79ADDC;
+  border-radius: 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  letter-spacing: -1px;
+  height: 40px;
+  width: 133px;
+  width: 121px;
+  position: absolute;
+  top: 367px;
+}
+.home .hero .hero-text {
+  color: white;
+  position: absolute;
+  top: 162px;
+}
+.home .hero .hero-text h1 {
+  font-size: 60pt;
+  font-family: Calibri;
+  font-weight: lighter;
+}
+.home .hero .hero-text h2 {
+  margin: 27px 19%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+}
+.home .promo-tours {
+  margin-top: -50px;
+  min-height: 304px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 18%;
+}
+.home .booking {
+  min-height: 400px;
+  padding: 50px;
+}
+.home .booking .booking-wrapper {
+  width: 64%;
+  max-width: 818px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home .booking .booking-wrapper h1 {
+  font-size: 46pt;
+  font-family: Calibri;
+  font-weight: lighter;
+}
+.home .booking .booking-wrapper input {
+  border: 1px solid #79ADDC;
+  padding-left: 20px;
+  font-size: 18pt;
+}
+.home .booking .booking-wrapper textarea {
+  border: 1px solid #79ADDC;
+  font-size: 18pt;
+}
+.home .booking .booking-wrapper select {
+  border: 1px solid #79ADDC;
+  font-size: 18pt;
+}
+.home .booking .booking-wrapper .short-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+.home .booking .booking-wrapper .short-input .short-input-left {
+  max-width: 344px;
+  width: 42%;
+  height: 58px;
+}
+.home .booking .booking-wrapper .short-input .short-input-right {
+  max-width: 453px;
+  width: 55%;
+  height: 58px;
+}
+.home .booking .booking-wrapper .long-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+  font-size: 18pt;
+}
+.home .booking .booking-wrapper .long-input input {
+  width: 85%;
+  max-width: 698px;
+  height: 58px;
+}
+.home .booking .booking-wrapper .booking-dropdowns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+  font-size: 18pt;
+}
+.home .booking .booking-wrapper .booking-dropdowns select {
+  height: 58px;
+  width: 103px;
+  padding-left: 20px;
+}
+.home .booking .booking-wrapper .booking-message {
+  width: 100%;
+  height: 192px;
+  padding: 20px 0 0 20px;
+}
+.home .booking .booking-wrapper .booking-submit {
+  background-color: #79ADDC;
+  border-radius: 30px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  letter-spacing: -1px;
+  height: 40px;
+  width: 133px;
+  width: 100%;
+  height: 60px;
+  margin-top: 33px;
+}
+
+.tour-item {
+  width: 236px;
+  height: 304px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.tour-item img {
+  width: inherit;
+  height: inherit;
+}
+.tour-item .tour-button {
+  background-color: #79ADDC;
+  border-radius: 20px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  letter-spacing: -1px;
+  height: 40px;
+  width: 133px;
+  position: absolute;
+  left: 52px;
+}
+.tour-item h1 {
+  margin-top: -270px;
+  font-family: Calibri, sans-serif;
+  font-size: 60pt;
+  font-weight: lighter;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.tour-item h2 {
+  margin-top: -30px;
+  font-family: Calibri, sans-serif;
+  font-size: 20pt;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 136px;
+  height: 42px;
+  position: relative;
+}
+.logo .logo-box {
+  border: 2px solid white;
+  width: 92px;
+  height: 38px;
+}
+.logo .logo-text {
+  color: white;
+  font-size: 20pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  width: 136px;
+  position: absolute;
+  top: 12px;
+  letter-spacing: 2.5px;
+}
+
+footer {
+  background-color: #79ADDC;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 150px;
+}
+footer p {
+  font-weight: bold;
+  padding-top: 15px;
+  letter-spacing: -0.5px;
+}
+footer .sm-icons {
+  width: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .sm-icons img {
+  width: 22.5px;
+  height: 22.5px;
+}
